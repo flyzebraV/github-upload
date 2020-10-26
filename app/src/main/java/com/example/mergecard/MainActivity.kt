@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun initView() {
 
-        var list=listOf("a","b","c","a","b","c","a","b","c")
+        var list=listOf("a","b","c","1","2","3","a","b","c")
         val cardAdapter = CardAdapter(list)
         val rv = findViewById<RecyclerView>(R.id.rv)
 
