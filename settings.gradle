@@ -1,2 +1,3 @@
+include ':FlyTools'
 include ':app'
 rootProject.name = "MergeCard"
